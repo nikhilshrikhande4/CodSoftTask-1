@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(197, 191, 191);
+    color: rgb(9, 9, 9);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(198, 198, 208);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 24px;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    color: rgb(170, 134, 205);
+}
+
+.leftNav {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.firstSection div {
+    width: 35%;
+}
+
+.leftSection {
+    font-size: 1.3rem;
+}
+
+.rightSection {
+    mix-blend-mode: color-burn;
+}
+
+main hr {
+    height: 1.2px;
+    border: 0px;
+    background-color: rgb(121, 77, 162);
+    margin: 40px 84px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection div {
+    justify-content: space-evenly;
+
+}
+
+.secondSection h1 {
+    font-size: 1.7rem;
+    text-decoration: underline;
+
+}
+
+.box {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.box img {
+    border-radius: 10px;
+    width: 220px;
+}
+
+.box img:hover {
+    opacity: 0.6;
+}
+
+.box h3 {
+    font-family: BlinkMacSystemFont;
+
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(7, 5, 5);
+
+}
